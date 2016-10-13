@@ -2,7 +2,6 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 			<title>Data Design Assignment - Instagram Profile and Post</title>
 	</head>
 
