@@ -32,17 +32,21 @@
 				<section>
 					<h3>Profile Entities</h3>
 						<ul>
-							<li>profileId (Primary Key)</li>
-							<li>profileByline</li>
-							<li>profilePhoto</li>
-
+							<li>profileId: primary key </li>
+							<li>profileByline: description of the profile </li>
+							<li>profilePhoto: identifying image for profile</li>
+							<li>profileName: name of profile</li>
+							<li>profileEmail: email used to start account</li>
 						</ul>
 					<h3>Post Entities</h3>
+
 						<ul>
-							<li>postProfileId</li>
-							<li>postId</li>
-							<li>postContent</li>
-							<li>postDateTime</li>
+							<li>postId: primary key for the post</li>
+							<li>postProfileId: foreign key to profile</li>
+							<li>postContent: the actual post</li>
+							<li>postImage: image associated with post</li>
+							<li>postDateTime: timestamp of post</li>
+							<li>like: other users can indicate that they liked the particular post</li>
 						</ul>
 				</section>
 
@@ -50,25 +54,46 @@
 
 				<section>
 					<h3>Relationships</h3>
+							<h4>Profile Entity Relationships</h4>
+								<h5>One to One</h5>
+									<ul>
+									<li>Each profile can have one profile id.</li>
+									<li>Each profile can have one profile byline.</li>
+									<li>Each profile can have one profile photo.</li>
+									<li>Each profile can have one profile name.</li>
+									<li>Each profile can have one email linked to their account.</li>
+									</ul>
+								<h5>One to Many</h5>
+									<ul>
+										<li>Each profile can have many posts.</li>
+										<li>Each profile can have many images.</li>
+									</ul>
 
-						<h4>One to One </h4>
-							<h5>Profile</h5>
-								<p>ProfileId: primary key for the profile</p>
-								<p>profileByline: description of the profile</p>
-								<p>profilePhoto: identifying image for profile</p>
+								<h5>Many to Many</h5>
+									<ul>
+										<li>Many profiles can have many likes from other profiles.</li>
+										<li>Many profiles can like many posts.</li>
+									</ul>
 
-							<h5>Post</h5>
-								<p>postId: primary key for the post</p>
-								<p>postProfileId: foreign key to profile</p>
-								<p>postContent: the actual post</p>
-								<p>postDateTime: timestamp of post</p>
+							<h4>Post Entity Relationships</h4>
+								<h5> One to One</h5>
+									<ul>
+										<li>Each post can have one post id.</li>
+										<li>Each post can have one post profile id.</li>
+										<li>Each post can have one date and time.</li>
+										<li>Each post can have one image with text.</li>
+									</ul>
 
-						<h4>One to Many</h4>
-							<p>profileId is the foreign key to postContent</p>
+								<h5>One to Many</h5>
+									<ul>
+										<li>Each post can have many likes.</li>
+									</ul>
 
+								<h5>Many to Many</h5>
+									<ul>
+										<li>Many posts can be liked by many profiles.</li>
+									</ul>
 
-						<h4> Many to Many</h4>
-							<p>postContent to hashtags</p>
 				</section>
 		</body>
 	</html>
