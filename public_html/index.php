@@ -2,6 +2,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 			<title>Data Design Assignment - Instagram Profile and Post</title>
 	</head>
 
@@ -49,6 +50,18 @@
 							<li>like: other users can indicate that they liked the particular post</li>
 						</ul>
 				</section>
+
+		<!-- Start Interaction Flow -->
+
+		<section>
+			<h3>Interaction Flow</h3>
+			<ol>
+				<li>McKenna evaluates her photos taken during a visit to Old Town Albuquerque.</li>
+				<li>After careful consideration, McKenna chooses five photos to upload on Instagram.</li>
+				<li>She logs in to Instgram.</li>
+				<li>Fer each post, she adds one photo, a caption, and several relevant hashtags.</li>
+			</ol>
+		</section>
 
 			<!-- start relationship section -->
 
