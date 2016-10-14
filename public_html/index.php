@@ -56,10 +56,11 @@
 		<section>
 			<h3>Interaction Flow</h3>
 			<ol>
+				<li>She logs in to Instgram.</li>
 				<li>McKenna evaluates her photos taken during a visit to Old Town Albuquerque.</li>
 				<li>After careful consideration, McKenna chooses five photos to upload on Instagram.</li>
-				<li>She logs in to Instgram.</li>
-				<li>Fer each post, she adds one photo, a caption, and several relevant hashtags.</li>
+				<li>For each post, she adds one photo, a caption, and several relevant hashtags.</li>
+				<li>Now, McKenna waits for the likes and comments to roll in!</li>
 			</ol>
 		</section>
 
