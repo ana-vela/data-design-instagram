@@ -59,8 +59,8 @@
 				<li>She logs in to Instgram.</li>
 				<li>McKenna evaluates her photos taken during a visit to Old Town Albuquerque.</li>
 				<li>After careful consideration, McKenna chooses five photos to upload on Instagram.</li>
-				<li>For each post, she adds one photo, a caption, and several relevant hashtags.</li>
-				<li>Now, McKenna waits for the likes and comments to roll in!</li>
+				<li>She adds one photo, a caption, and several relevant hashtags for each post.</li>
+				<li>McKenna waits for the likes and comments to roll in!</li>
 			</ol>
 		</section>
 
