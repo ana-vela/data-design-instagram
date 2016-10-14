@@ -56,10 +56,13 @@
 		<section>
 			<h3>Interaction Flow</h3>
 			<ol>
-				<li>She logs in to Instgram.</li>
-				<li>McKenna evaluates her photos taken during a visit to Old Town Albuquerque.</li>
-				<li>After careful consideration, McKenna chooses five photos to upload on Instagram.</li>
-				<li>She adds one photo, a caption, and several relevant hashtags for each post.</li>
+				<li>McKenna logs in to Instagram.</li>
+				<li>She looks through the camera feature on her iPhone to select photos to upload.</li>
+				<li>When she clicks on the share button on her phone, she chooses to share to Instagram.</li>
+				<li>McKenna's photo uploads to Instagram.</li>
+				<li>She is able to crop her photo and make additional edits to modify her photo image.</li>
+				<li>She then adds a caption and several relevant hashtags.</li>
+				<li>Once all adjustments are made, she is able to share the photo with all her followers by pressing the share button.</li>
 				<li>McKenna waits for the likes and comments to roll in!</li>
 			</ol>
 		</section>
@@ -69,17 +72,10 @@
 				<section>
 					<h3>Relationships</h3>
 							<h4>Profile Entity Relationships</h4>
-								<h5>One to One</h5>
-									<ul>
-									<li>Each profile can have one profile id.</li>
-									<li>Each profile can have one profile byline.</li>
-									<li>Each profile can have one profile photo.</li>
-									<li>Each profile can have one profile name.</li>
-									<li>Each profile can have one email linked to their account.</li>
-									</ul>
+
 								<h5>One to Many</h5>
 									<ul>
-										<li>Each profile can have many posts.</li>
+										<li>Each profile can make many posts.</li>
 										<li>Each profile can have many images.</li>
 									</ul>
 
@@ -90,13 +86,7 @@
 									</ul>
 
 							<h4>Post Entity Relationships</h4>
-								<h5> One to One</h5>
-									<ul>
-										<li>Each post can have one post id.</li>
-										<li>Each post can have one post profile id.</li>
-										<li>Each post can have one date and time.</li>
-										<li>Each post can have one image with text.</li>
-									</ul>
+
 
 								<h5>One to Many</h5>
 									<ul>
