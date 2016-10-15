@@ -100,6 +100,8 @@
 
 				</section>
 
+		<!-- trying to add an image to index.php -->
+
 		<!-- <img src="img/data-design-instagram-erd.pdf" alt="ERD Chart"> -->
 		</body>
 	</html>
