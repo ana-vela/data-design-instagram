@@ -1,3 +1,33 @@
+body {
+	margin-left: 1in;
+	margin-right: 1in;
+	<!-- font-family: arial, serif, "Times New Roman"; -->
+}
+
 h1 {
+	text-align: center;
+	font-weight: bold;
+	<!-- font-family: arial black,"Times New Roman"; -->
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
 
 }
+h4 {
+	text-align: center;
+
+}
+
+h5 {
+	text-align: center;
+}
+
+ul {
+	margin-left: 250px;
+}
+
