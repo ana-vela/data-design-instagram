@@ -28,27 +28,29 @@
 					<p> McKenna recently created flyers and business cards to promote her photography work. She hopes that potential clients will visit her Instagram page to be able to preview her work and eventually hire her for an event or photo session.</p>
 					<p>A few of McKenna's friends offered to post flyers and give out business cards for her. Her friends will also share and comment on her posts. McKenna wants to be ready with good examples of her work once more people beginning checking out her Instagram page. She will be uploading several photos with her iPhone.</p>
 				</section>
+
 				<!-- start entities section -->
 
 				<section>
-					<h3>Profile Entities</h3>
-						<ul>
-							<li>profileId: primary key </li>
-							<li>profileByline: description of the profile </li>
-							<li>profilePhoto: identifying image for profile</li>
-							<li>profileName: name of profile</li>
-							<li>profileEmail: email used to start account</li>
-						</ul>
-					<h3>Post Entities</h3>
+					<h3>Entities and Attributes</h3>
+						<h4>Profile</h4>
+							<ul>
+								<li>profileId: primary key </li>
+								<li>profileByline: description of the profile </li>
+								<li>profilePhoto: identifying image for profile</li>
+								<li>profileName: name of profile</li>
+								<li>profileEmail: email used to start account</li>
+							</ul>
+						<h4>Post</h4>
 
-						<ul>
-							<li>postId: primary key for the post</li>
-							<li>postProfileId: foreign key to profile</li>
-							<li>postContent: the actual post</li>
-							<li>postImage: image associated with post</li>
-							<li>postDateTime: timestamp of post</li>
-							<li>postLike: other users can indicate that they liked the particular post</li>
-						</ul>
+							<ul>
+								<li>postId: primary key for the post</li>
+								<li>postProfileId: foreign key to profile</li>
+								<li>postContent: the actual post</li>
+								<li>postImage: image associated with post</li>
+								<li>postDateTime: timestamp of post</li>
+								<li>postLike: other users can indicate that they liked the particular post</li>
+							</ul>
 				</section>
 
 		<!-- Start Interaction Flow -->
@@ -70,7 +72,7 @@
 			<!-- start relationship section -->
 
 				<section>
-					<h3>Relationships</h3>
+					<h3>Conceptual Model - Relationships</h3>
 							<h4>Profile Entity Relationships</h4>
 
 								<h5>One to Many</h5>
