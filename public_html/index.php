@@ -120,7 +120,7 @@
 
 				</section>
 
-		<!-- trying to add an image to index.php -->
+		<!-- adding erd image -->
 
 		<img src="img/data-design-instagram-erd-1.png" alt="ERD Chart">
 		</body>
