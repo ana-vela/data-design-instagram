@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
 		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 			<title>Data Design Assignment - Instagram Profile and Post</title>
 	</head>
@@ -51,6 +51,12 @@
 								<li>postDateTime: timestamp of post</li>
 								<li>postLike: other users can indicate that they liked the particular post</li>
 							</ul>
+						<h4>Like</h4>
+							<ul>
+								<li>likeProfileId: primary key to identify the profile like came from</li>
+								<li>likePostId: primary for the like</li>
+								<li>likeDateTime: timestamp of the like</li>
+							</ul>
 				</section>
 
 		<!-- Start Interaction Flow -->
@@ -72,8 +78,8 @@
 			<!-- start relationship section -->
 
 				<section>
-					<h3>Conceptual Model - Relationships</h3>
-							<h4>Profile Entity Relationships</h4>
+					<h3>Conceptual Model</h3>
+							<h4>Profile Relationships</h4>
 
 								<h5>One to Many</h5>
 									<ul>
@@ -87,7 +93,7 @@
 										<li>Many profiles can like many posts.</li>
 									</ul>
 
-							<h4>Post Entity Relationships</h4>
+							<h4>Post Relationships</h4>
 
 
 								<h5>One to Many</h5>
@@ -99,11 +105,23 @@
 									<ul>
 										<li>Many posts can be liked by many profiles.</li>
 									</ul>
+							<h4>Like Relationships</h4>
+							<h5>One to One</h5>
+								<ul>
+									<li>Each profile can give one like per post.</li>
+								</ul>
+							<h5>One to Many</h5>
+								<ul>
+									<li>Each profile can give many likes.</li>
+									<li>Each post can have many likes.</li>
+								</ul>
+
+
 
 				</section>
 
 		<!-- trying to add an image to index.php -->
 
-		<!-- <img src="img/data-design-instagram-erd.pdf" alt="ERD Chart"> -->
+		<img src="img/data-design-instagram-erd-1.png" alt="ERD Chart">
 		</body>
 	</html>
