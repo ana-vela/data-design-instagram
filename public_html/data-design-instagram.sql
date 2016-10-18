@@ -16,6 +16,7 @@ CREATE TABLE post (
 	postId INT UNSIGNED AUTO_INCREMENT NOT NULL,
 	postProfileId INT UNSIGNED NOT NULL,
 	postContent VARCHAR(140) NOT NULL,
+	postImagePath VARCHAR(128) NOT NULL,
 	posttDateTime DATETIME NOT NULL,
 	INDEX(postProfileId),
 	FOREIGN KEY(postProfileId) REFERENCES profile(profileId),
