@@ -18,9 +18,9 @@ CREATE TABLE post (
 	postProfileId INT UNSIGNED NOT NULL,
 	postContent VARCHAR (140) NOT NULL,
 	posttDateTime DATETIME NOT NULL,
-	INDEX (postProfileId),
-	FOREIGN KEY (postProfileId) REFERENCES PROFILE (profileId),
-	PRIMARY KEY (postId)
+	INDEX(postProfileId),
+	FOREIGN KEY(postProfileId) REFERENCES profile(profileId),
+	PRIMARY KEY(postId)
 );
 
 CREATE TABLE `like` (
@@ -29,8 +29,8 @@ CREATE TABLE `like` (
 	likeDateTime DATETIME NOT NULL,
 	INDEX(likeProfileId),
 	INDEX(likePostId),
-	FOREIGN KEY(likeProfileId) REFERENCES profile (profileId),
-	FOREIGN KEY(likePostId) REFERENCES post (postId),
+	FOREIGN KEY(likeProfileId) REFERENCES profile(profileId),
+	FOREIGN KEY(likePostId) REFERENCES post(postId),
 	PRIMARY KEY(likeProfileId, likePostId)
 );
 
