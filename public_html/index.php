@@ -41,8 +41,8 @@
 								<li>profileName: name of profile</li>
 								<li>profileEmail: email used to start account</li>
 							</ul>
-						<h4>Post</h4>
 
+						<h4>Post</h4>
 							<ul>
 								<li>postId: primary key for the post</li>
 								<li>postProfileId: foreign key to profile</li>
@@ -52,6 +52,7 @@
 								<li>postDateTime: timestamp of post</li>
 								<li>postLike: other users can indicate that they liked the particular post</li>
 							</ul>
+
 						<h4>Like</h4>
 							<ul>
 								<li>likeProfileId: primary key to identify the profile like came from</li>
@@ -123,6 +124,6 @@
 
 		<!-- adding erd image -->
 
-		<img src="img/data-design-instagram-erd-1.png" alt="ERD Chart">
+		<img src="img/data-design-instagram-erd-2.png" alt="ERD Chart">
 	</body>
 	</html>
