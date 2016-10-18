@@ -48,6 +48,7 @@
 								<li>postProfileId: foreign key to profile</li>
 								<li>postContent: the actual post</li>
 								<li>postImage: image associated with post</li>
+								<li>postImagePath: path linking image to post</li>
 								<li>postDateTime: timestamp of post</li>
 								<li>postLike: other users can indicate that they liked the particular post</li>
 							</ul>
