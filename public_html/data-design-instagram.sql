@@ -25,12 +25,12 @@ CREATE TABLE post (
 
 CREATE TABLE `like` (
 	likeProfileId INT UNSIGNED NOT NULL,
-	likePosttId INT UNSIGNED NOT NULL,
+	likePostId INT UNSIGNED NOT NULL,
 	likeDateTime DATETIME NOT NULL,
-	INDEX (likeProfileId),
-	INDEX (likePostId),
-	FOREIGN KEY (likeProfileId) REFERENCES profile (profileId),
-	FOREIGN KEY (likePostId) REFERENCES post (postId),
-	PRIMARY KEY (likeProfileId, likePostId)
+	INDEX(likeProfileId),
+	INDEX(likePostId),
+	FOREIGN KEY(likeProfileId) REFERENCES profile (profileId),
+	FOREIGN KEY(likePostId) REFERENCES post (postId),
+	PRIMARY KEY(likeProfileId, likePostId)
 );
 
