@@ -6,6 +6,7 @@ CREATE TABLE profile (
 	profileId INT UNSIGNED AUTO_INCREMENT NOT NULL,
 	profileName VARCHAR(32) NOT NULL,
 	profileEmail VARCHAR(128) NOT NULL,
+	profilePhoto VARCHAR( 128),
 	profileByline VARCHAR(32),
 	UNIQUE(profileEmail),
 	UNIQUE(profileName),
